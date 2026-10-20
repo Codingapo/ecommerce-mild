@@ -1,3 +1,4 @@
+import { StoreSections } from "@/components/store-sections";
 import Link from "next/link";
 import {
   ArrowUpRight,
@@ -111,6 +112,7 @@ export default async function Home() {
           </Button>
         </div>
       </section>
+      <StoreSections />
     </>
   );
 }
